@@ -1,4 +1,4 @@
-package com.bugtrackingysystem.repository;
+package com.bugtrackingsystem.repository;
 
 import java.util.List;
 

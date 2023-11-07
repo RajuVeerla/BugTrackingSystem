@@ -1,12 +1,13 @@
-package com.bugtrackingysystem.serviceimplementation;
+package com.bugtrackingsystem.serviceimplementation;
 
 import org.aspectj.weaver.IUnwovenClassFile;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.bugtrackingsystem.dto.UserDTO;
+import com.bugtrackingsystem.repository.UserRepository;
 import com.bugtrackingsystem.service.IUserService;
-import com.bugtrackingysystem.repository.UserRepository;
+
 
 @Service
 public class IUserImplementation implements IUserService{
