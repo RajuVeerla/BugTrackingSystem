@@ -1,4 +1,4 @@
-package com.bugtrackingystem.serviceimplementation;
+package com.bugtrackingysystem.serviceimplementation;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import com.bugtrackingsystem.dto.DeveloperDTO;
 import com.bugtrackingsystem.dto.ProjectDTO;
 import com.bugtrackingsystem.service.IDeveloperService;
-import com.bugtrackingystem.repository.DeveloperRepository;
+import com.bugtrackingysystem.repository.DeveloperRepository;
 
 
 @Service

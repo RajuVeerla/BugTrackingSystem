@@ -1,4 +1,4 @@
-package com.bugtrackingystem.serviceimplementation;
+package com.bugtrackingysystem.serviceimplementation;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,7 +13,7 @@ import org.springframework.data.repository.query.FluentQuery.FetchableFluentQuer
 import org.springframework.stereotype.Service;
 
 import com.bugtrackingsystem.entity.Project;
-import com.bugtrackingystem.repository.ProjectRepository;
+import com.bugtrackingysystem.repository.ProjectRepository;
 
 
 @Service
