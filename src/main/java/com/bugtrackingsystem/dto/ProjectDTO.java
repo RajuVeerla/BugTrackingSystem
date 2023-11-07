@@ -2,6 +2,10 @@ package com.bugtrackingsystem.dto;
 
 import java.util.List;
 
+import lombok.Data;
+
+
+@Data
 public class ProjectDTO {
 	private Integer projId;
 	private String projName;

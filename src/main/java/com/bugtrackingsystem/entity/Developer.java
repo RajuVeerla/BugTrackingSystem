@@ -25,7 +25,7 @@ import lombok.NoArgsConstructor;
 @Table(name="Developer")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class Developer extends User{
-    
+    @Id
 	@Column(name="dname")
 	private String devName;
 	
