@@ -9,9 +9,9 @@ import com.bugtrackingsystem.dto.TestEngineerDTO;
 @Service
 public interface ITestEngineerService {
 
-	TestEngineerDTO addTestEngineer(TestEngineerDTO testEngineer);
+	String addTestEngineer(TestEngineerDTO testEngineer);
 
-	TestEngineerDTO updateTestEngineer(TestEngineerDTO testEngineer);
+	String updateTestEngineer(TestEngineerDTO testEngineer);
 
 	TestEngineerDTO getTestEngById(Integer testerId);
 
