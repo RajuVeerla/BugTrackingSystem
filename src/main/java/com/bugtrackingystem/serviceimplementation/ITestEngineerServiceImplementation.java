@@ -1,4 +1,4 @@
-package com.bugtrackingystems.serviceimplementation;
+package com.bugtrackingystem.serviceimplementation;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import com.bugtrackingsystem.dto.ProjectDTO;
 import com.bugtrackingsystem.dto.TestEngineerDTO;
 import com.bugtrackingsystem.service.ITestEngineerService;
-import com.bugtrackingystems.repository.TestEngineerRepository;
+import com.bugtrackingystem.repository.TestEngineerRepository;
 
 @Service
 public class ITestEngineerServiceImplementation implements ITestEngineerService{

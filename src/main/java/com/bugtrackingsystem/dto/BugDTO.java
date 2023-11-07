@@ -102,6 +102,16 @@ public class BugDTO {
 	public void setProject(ProjectDTO project) {
 		this.project = project;
 	}
+
+
+
+	public BugDTO orElse(Object object) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+
 	
 	
 

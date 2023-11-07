@@ -1,4 +1,4 @@
-package com.bugtrackingystems.serviceimplementation;
+package com.bugtrackingystem.serviceimplementation;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import com.bugtrackingsystem.dto.DeveloperDTO;
 import com.bugtrackingsystem.dto.ProjectDTO;
 import com.bugtrackingsystem.service.IDeveloperService;
-import com.bugtrackingystems.repository.DeveloperRepository;
+import com.bugtrackingystem.repository.DeveloperRepository;
 
 
 @Service
@@ -19,33 +19,35 @@ public class IDeveloperServiceImplementation implements IDeveloperService{
 	
 	private DeveloperRepository devrepository ;
 	@Override
-	public DeveloperDTO addDeveloper(DeveloperDTO developer) {
+	public String addDeveloper(DeveloperDTO developer) {
 		// TODO Auto-generated method stub
-		return null;
+	devrepository.addDeveloper(developer);
+		return "Developer Added succesfully";
 	}
 
 	@Override
-	public DeveloperDTO updateDeveloper(DeveloperDTO developer) {
+	public String updateDeveloper(DeveloperDTO developer) {
 		// TODO Auto-generated method stub
-		return null;
+		devrepository.updateDeveloper(developer);
+		return "Developer updated  succesfully";
 	}
 
 	@Override
 	public DeveloperDTO getDeveloperById(Integer devId) {
 		// TODO Auto-generated method stub
-		return null;
+		return devrepository.getDeveloperById(devId);
 	}
 
 	@Override
 	public List<DeveloperDTO> getAllDevelopers() {
 		// TODO Auto-generated method stub
-		return null;
-	}
+		return devrepository.getAllDevelopers();
+		}
 
 	@Override
 	public List<ProjectDTO> getProjectByDevId(Integer devId) {
 		// TODO Auto-generated method stub
-		return null;
+		return devrepository.getProjectByDevId(devId);
 	}
 
 }

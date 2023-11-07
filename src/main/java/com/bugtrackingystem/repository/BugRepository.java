@@ -1,4 +1,4 @@
-package com.bugtrackingystems.repository;
+package com.bugtrackingystem.repository;
 
 import java.time.LocalDate;
 import java.util.List;

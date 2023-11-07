@@ -1,4 +1,4 @@
-package com.bugtrackingystems.serviceimplementation;
+package com.bugtrackingystem.serviceimplementation;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,7 +13,8 @@ import org.springframework.data.repository.query.FluentQuery.FetchableFluentQuer
 import org.springframework.stereotype.Service;
 
 import com.bugtrackingsystem.entity.Project;
-import com.bugtrackingystems.repository.ProjectRepository;
+import com.bugtrackingystem.repository.ProjectRepository;
+
 
 @Service
 public class IProjectServiceImplementation implements ProjectRepository{
@@ -23,13 +24,13 @@ public class IProjectServiceImplementation implements ProjectRepository{
 	@Override
 	public List<Project> findAll() {
 		// TODO Auto-generated method stub
-		return null;
+		return projectrepository.findAll();
 	}
 
 	@Override
 	public List<Project> findAll(Sort sort) {
 		// TODO Auto-generated method stub
-		return null;
+		return projectrepository.findAll(sort);
 	}
 
 	@Override

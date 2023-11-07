@@ -1,4 +1,4 @@
-package com.bugtrackingystems.serviceimplementation;
+package com.bugtrackingystem.serviceimplementation;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.bugtrackingsystem.dto.BugDTO;
 import com.bugtrackingsystem.service.IBugService;
-import com.bugtrackingystems.repository.BugRepository;
+import com.bugtrackingystem.repository.BugRepository;
 
 @Service
 public class IBugServiceImplementation implements IBugService{
