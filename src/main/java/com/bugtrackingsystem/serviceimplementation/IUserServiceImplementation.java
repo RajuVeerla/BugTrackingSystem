@@ -10,7 +10,7 @@ import com.bugtrackingsystem.service.IUserService;
 
 
 @Service
-public class IUserImplementation implements IUserService{
+public class IUserServiceImplementation implements IUserService{
     @Autowired
     UserRepository userRepository;
 	@Override
